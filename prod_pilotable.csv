@@ -1,0 +1,9 @@
+﻿techno;puissance;CO2;Gaz;Charbon;Brent
+ccgt;6000;0.35;1.9;0;0
+tac gaz;650;0.6;3;0;0
+tac fioul;2000;0.7;0;0;4
+charbon;2000;0.9;0;0.3;0
+interconnexion_1;3000;0.9;0;0.25;0
+interconnexion_2;3000;0.35;2.1;0;0
+interconnexion_3;3000;0.7;1;0.15;0
+interconnexion_4;3000;0.7;0;0;3.7

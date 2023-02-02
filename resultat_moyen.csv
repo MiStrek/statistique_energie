@@ -1,0 +1,1126 @@
+,Date,Heure,Prix,Consommation,Production,Export
+0,2021-01-01,0,43.27090130284521,56842.22188792385,"              techno        Volume     Prix
+0             eolien   3892.016578        0
+1            solaire      0.000000        0
+2            fil_eau   2892.487890        0
+3       cogeneration   3325.515688        0
+4          nucleaire  49665.360426        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",7933.158693676502
+1,2021-01-01,1,43.2489200887512,55961.95225987302,"              techno        Volume     Prix
+0             eolien   3797.774439        0
+1            solaire      0.000000        0
+2            fil_eau   2851.123041        0
+3       cogeneration   3326.497680        0
+4          nucleaire  49579.152216        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",8592.59511649677
+2,2021-01-01,2,27.99032874052533,53490.44991492009,"              techno        Volume     Prix
+0             eolien   3647.092022        0
+1            solaire      0.000000        0
+2            fil_eau   2750.253841        0
+3       cogeneration   3328.461664        0
+4          nucleaire  48782.760444        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon    981.881945  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",9000.0
+3,2021-01-01,3,24.967234452266418,51892.68746923333,"              techno        Volume     Prix
+0             eolien   3490.634321        0
+1            solaire      0.000000        0
+2            fil_eau   2697.022028        0
+3       cogeneration   3327.643337        0
+4          nucleaire  48450.999483        8
+10  interconnexion_1   2926.388301  24.9697
+9            charbon      0.000000  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",9000.0
+4,2021-01-01,4,27.95462712979842,52388.79138712637,"              techno        Volume     Prix
+0             eolien   3326.301232        0
+1            solaire      0.000000        0
+2            fil_eau   2686.680816        0
+3       cogeneration   3324.206365        0
+4          nucleaire  48783.753245        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon    267.849730  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",9000.0
+5,2021-01-01,5,28.024786425523,54898.539286388856,"              techno        Volume     Prix
+0             eolien   3202.788902        0
+1            solaire      0.000000        0
+2            fil_eau   2734.318203        0
+3       cogeneration   3308.167164        0
+4          nucleaire  49982.229374        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   1671.035645  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",9000.0
+6,2021-01-01,6,43.29440105660026,58150.34422109575,"              techno        Volume     Prix
+0             eolien   3086.889447        0
+1            solaire      0.000000        0
+2            fil_eau   2940.125277        0
+3       cogeneration   3311.767801        0
+4          nucleaire  51039.727778        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",7228.166081025112
+7,2021-01-01,7,44.17318430370953,60963.72450884,"              techno        Volume     Prix
+0             eolien   2926.756565        0
+1            solaire      1.378589        0
+2            fil_eau   3105.584671        0
+3       cogeneration   3306.530510        0
+4          nucleaire  51488.142842        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   1135.331332  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.000000000007
+8,2021-01-01,8,44.21249138831804,62532.72505392776,"              techno        Volume     Prix
+0             eolien   2844.327507        0
+1            solaire    233.966229        0
+2            fil_eau   3327.157855        0
+3       cogeneration   3274.615772        0
+4          nucleaire  51538.113820        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2314.543871  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+9,2021-01-01,9,44.22700695798501,63703.25667342547,"              techno        Volume     Prix
+0             eolien   2568.557683        0
+1            solaire   1020.352721        0
+2            fil_eau   3485.836127        0
+3       cogeneration   3267.414498        0
+4          nucleaire  51611.084684        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2750.010961  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+10,2021-01-01,10,44.207426512543336,63803.06824198948,"              techno        Volume     Prix
+0             eolien   2147.355700        0
+1            solaire   1822.494515        0
+2            fil_eau   3549.917736        0
+3       cogeneration   3286.072345        0
+4          nucleaire  51834.630349        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2162.597597  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+11,2021-01-01,11,44.21928364461405,64340.68257858441,"              techno        Volume     Prix
+0             eolien   1771.568453        0
+1            solaire   2215.786231        0
+2            fil_eau   3576.703171        0
+3       cogeneration   3306.366845        0
+4          nucleaire  51951.946320        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2518.311559  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+12,2021-01-01,12,44.210448833546444,64088.51067171419,"              techno        Volume     Prix
+0             eolien   1626.530063        0
+1            solaire   2284.715676        0
+2            fil_eau   3515.673066        0
+3       cogeneration   3327.479672        0
+4          nucleaire  52080.844967        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2253.267227  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+13,2021-01-01,13,44.153946923787935,61839.33004490186,"              techno        Volume     Prix
+0             eolien   1536.225618        0
+1            solaire   1957.399285        0
+2            fil_eau   3341.059157        0
+3       cogeneration   3322.569712        0
+4          nucleaire  52123.866339        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    558.209935  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+14,2021-01-01,14,43.31077493929805,59741.42146826495,"              techno        Volume     Prix
+0             eolien   1412.844545        0
+1            solaire   1347.275230        0
+2            fil_eau   3299.185724        0
+3       cogeneration   3328.788994        0
+4          nucleaire  52090.276576        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6736.949600091233
+15,2021-01-01,15,43.307330302990835,58867.37062953279,"              techno        Volume     Prix
+0             eolien   1352.204060        0
+1            solaire    572.311331        0
+2            fil_eau   3357.333851        0
+3       cogeneration   3332.389631        0
+4          nucleaire  52093.420445        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3      0.000000  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6840.28868930781
+16,2021-01-01,16,44.16759832029138,60772.185797826205,"              techno        Volume     Prix
+0             eolien   1408.381825        0
+1            solaire     51.401672        0
+2            fil_eau   3720.632500        0
+3       cogeneration   3319.296405        0
+4          nucleaire  52304.721566        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    967.751830  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.000000000007
+17,2021-01-01,17,49.914341596381036,64637.16335934931,"              techno        Volume     Prix
+0             eolien   1550.532572        0
+1            solaire      0.000000        0
+2            fil_eau   4173.950553        0
+3       cogeneration   3331.734970        0
+4          nucleaire  52456.454634        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1124.490630       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+18,2021-01-01,18,49.922236005360645,65273.19003691136,"              techno        Volume     Prix
+0             eolien   1625.217499        0
+1            solaire      0.000000        0
+2            fil_eau   4218.366907        0
+3       cogeneration   3329.770986        0
+4          nucleaire  52554.080053        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1545.754592       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+19,2021-01-01,19,44.224003783549726,62926.6853572628,"              techno        Volume     Prix
+0             eolien   1658.031614        0
+1            solaire      0.000000        0
+2            fil_eau   3853.712033        0
+3       cogeneration   3338.117918        0
+4          nucleaire  52416.908065        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2659.915727  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+20,2021-01-01,20,44.14342015627549,59991.88320807217,"              techno        Volume     Prix
+0             eolien   1586.628099        0
+1            solaire      0.000000        0
+2            fil_eau   3566.022902        0
+3       cogeneration   3339.427240        0
+4          nucleaire  52257.398057        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    242.406909  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+21,2021-01-01,21,43.32483491602769,58914.01154942244,"              techno        Volume     Prix
+0             eolien  1.429908e+03        0
+1            solaire  0.000000e+00        0
+2            fil_eau  3.385136e+03        0
+3       cogeneration  3.342373e+03        0
+4          nucleaire  5.207174e+04        8
+10  interconnexion_1  3.000000e+03  24.9697
+9            charbon  2.000000e+03  28.0412
+12  interconnexion_3  7.275958e-12  44.2353
+5                lac  0.000000e+00       50
+6               ccgt  0.000000e+00   56.073
+11  interconnexion_2  0.000000e+00  61.5819
+7            tac gaz  0.000000e+00  89.0422
+13  interconnexion_4  0.000000e+00  191.513
+8          tac fioul  0.000000e+00  206.435",6315.150298202003
+22,2021-01-01,22,44.22904364549531,61913.48910752626,"              techno        Volume     Prix
+0             eolien   1253.367945        0
+1            solaire      0.000000        0
+2            fil_eau   3348.518392        0
+3       cogeneration   3342.373216        0
+4          nucleaire  52158.117969        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2811.111586  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+23,2021-01-01,23,44.22664514963802,61626.64745020524,"              techno        Volume     Prix
+0             eolien   1200.340335        0
+1            solaire      0.000000        0
+2            fil_eau   3297.829500        0
+3       cogeneration   3340.245567        0
+4          nucleaire  52049.075339        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2739.156710  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+24,2021-01-02,0,60.668304832356085,66779.99207356275,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1152.12        0
+3       cogeneration  951.874        0
+4          nucleaire  53114.4        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  970.196       50
+6               ccgt     6000   56.073
+11  interconnexion_2        0  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3408.6367193572223
+25,2021-01-02,1,60.64088843499032,65712.42277419993,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1093.68        0
+3       cogeneration   952.79        0
+4          nucleaire  53108.3        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac   788.74       50
+6               ccgt     6000   56.073
+11  interconnexion_2        0  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",4231.128640330004
+26,2021-01-02,2,56.07048916804181,63201.476232775734,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1063.21        0
+3       cogeneration  952.266        0
+4          nucleaire  52708.5        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  626.867       50
+6               ccgt  5850.61   56.073
+11  interconnexion_2        0  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",6000.0
+27,2021-01-02,3,56.05457756271689,61641.333598596604,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  968.671        0
+3       cogeneration  953.575        0
+4          nucleaire  52176.1        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  647.075       50
+6               ccgt  4895.91   56.073
+11  interconnexion_2        0  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",5999.999999999993
+28,2021-01-02,4,56.05433978142335,62406.68658894861,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  953.779        0
+3       cogeneration  946.903        0
+4          nucleaire  53038.7        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  585.618       50
+6               ccgt  4881.64   56.073
+11  interconnexion_2        0  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",6000.0
+29,2021-01-02,5,60.62559157513844,65213.9621086886,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  996.425        0
+3       cogeneration  944.024        0
+4          nucleaire  53203.3        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  760.199       50
+6               ccgt     6000   56.073
+11  interconnexion_2        0  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",4690.034435886482
+30,2021-01-02,6,61.53591007354725,68937.69877328599,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1048.77        0
+3       cogeneration  938.399        0
+4          nucleaire  53295.8        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac   1035.2       50
+6               ccgt     6000   56.073
+11  interconnexion_2  1619.52  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+31,2021-01-02,7,190.52649296094327,72040.32204955925,"              techno    Volume     Prix
+0             eolien         0        0
+1            solaire  0.746165        0
+2            fil_eau   1202.66        0
+3       cogeneration   935.259        0
+4          nucleaire   53362.4        8
+10  interconnexion_1      3000  24.9697
+9            charbon      2000  28.0412
+12  interconnexion_3      3000  44.2353
+5                lac   1490.81       50
+6               ccgt      6000   56.073
+11  interconnexion_2      3000  61.5819
+7            tac gaz       650  89.0422
+13  interconnexion_4         0  191.513
+8          tac fioul         0  206.435",2601.520605551501
+32,2021-01-02,8,190.5601194678218,73897.77488383699,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  235.042        0
+2            fil_eau  1381.37        0
+3       cogeneration   932.25        0
+4          nucleaire  53299.4        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  1992.47       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",1592.725399194882
+33,2021-01-02,9,190.56434136235154,75529.54670813857,"              techno       Volume     Prix
+0             eolien            0        0
+1            solaire      999.115        0
+2            fil_eau      1517.65        0
+3       cogeneration      930.157        0
+4          nucleaire      53432.5        8
+10  interconnexion_1         3000  24.9697
+9            charbon         2000  28.0412
+12  interconnexion_3         3000  44.2353
+5                lac      2466.22       50
+6               ccgt         6000   56.073
+11  interconnexion_2         3000  61.5819
+7            tac gaz          650  89.0422
+13  interconnexion_4  1.45519e-11  191.513
+8          tac fioul            0  206.435",1466.0685633034154
+34,2021-01-02,10,190.54167125381792,75968.15284491716,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire     1799        0
+2            fil_eau  1538.64        0
+3       cogeneration  925.709        0
+4          nucleaire  53482.3        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2718.72       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",2146.1718193119887
+35,2021-01-02,11,190.53304277642937,76444.04540943092,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  2304.16        0
+2            fil_eau  1569.78        0
+3       cogeneration  939.053        0
+4          nucleaire  53502.6        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2883.51       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",2405.0261409680534
+36,2021-01-02,12,190.5157840539412,75742.4718349417,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  2513.83        0
+2            fil_eau  1505.47        0
+3       cogeneration  942.193        0
+4          nucleaire  53466.5        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2587.26       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",2922.787815613934
+37,2021-01-02,13,61.54917725100347,73396.37055297784,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  2329.53        0
+2            fil_eau  1369.63        0
+3       cogeneration  939.184        0
+4          nucleaire  53406.6        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2333.93       50
+6               ccgt     6000   56.073
+11  interconnexion_2  2017.54  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+38,2021-01-02,14,61.50666761128158,70854.02491451356,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  1657.23        0
+2            fil_eau  1337.82        0
+3       cogeneration  938.661        0
+4          nucleaire  53329.3        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  1848.73       50
+6               ccgt     6000   56.073
+11  interconnexion_2  742.247  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+39,2021-01-02,15,61.50895665927826,70060.21649246899,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  713.334        0
+2            fil_eau  1363.77        0
+3       cogeneration  946.379        0
+4          nucleaire    53369        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  1856.85       50
+6               ccgt     6000   56.073
+11  interconnexion_2  810.918  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+40,2021-01-02,16,88.99078404433449,72111.95123968199,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire  56.7085        0
+2            fil_eau  1426.95        0
+3       cogeneration  948.211        0
+4          nucleaire  53407.1        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  1957.06       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz  315.958  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+41,2021-01-02,17,190.6119805253117,76609.87189067417,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1660.48        0
+3       cogeneration  947.295        0
+4          nucleaire  53412.2        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2976.84       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",36.89367449791462
+42,2021-01-02,18,191.4395866057603,77971.31711389603,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1776.91        0
+3       cogeneration  949.912        0
+4          nucleaire  53447.2        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac     3356       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4  791.289  191.513
+8          tac fioul        0  206.435",0.0
+43,2021-01-02,19,190.57383909529844,75484.90111703504,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1675.37        0
+3       cogeneration  952.136        0
+4          nucleaire  53459.4        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2929.13       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",1181.136574896358
+44,2021-01-02,20,88.96305946890638,72251.2847327973,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1544.05        0
+3       cogeneration  954.621        0
+4          nucleaire  53414.2        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2202.68       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz  135.748  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+45,2021-01-02,21,61.55194245116928,70613.62557780047,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1421.76        0
+3       cogeneration  953.836        0
+4          nucleaire  53375.1        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  1762.48       50
+6               ccgt     6000   56.073
+11  interconnexion_2  2100.49  61.5819
+7            tac gaz        0  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+46,2021-01-02,22,190.52593464594517,73281.07699353411,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1368.96        0
+3       cogeneration  951.481        0
+4          nucleaire  53485.8        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  2443.09       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz      650  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",2618.2700554939074
+47,2021-01-02,23,88.97267320926062,72107.04513076927,"              techno   Volume     Prix
+0             eolien        0        0
+1            solaire        0        0
+2            fil_eau  1365.35        0
+3       cogeneration  952.659        0
+4          nucleaire  53663.1        8
+10  interconnexion_1     3000  24.9697
+9            charbon     2000  28.0412
+12  interconnexion_3     3000  44.2353
+5                lac  1927.68       50
+6               ccgt     6000   56.073
+11  interconnexion_2     3000  61.5819
+7            tac gaz  198.237  89.0422
+13  interconnexion_4        0  191.513
+8          tac fioul        0  206.435",3000.0
+48,2021-01-03,0,56.02753839216097,70227.01691274345,"              techno        Volume     Prix
+0             eolien   5009.744157        0
+1            solaire      0.000000        0
+2            fil_eau   3047.418731        0
+3       cogeneration   3634.245725        0
+4          nucleaire  51984.881859        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1277.167830       50
+6               ccgt   3273.558612   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+49,2021-01-03,1,56.01355146034992,68759.94339561369,"              techno        Volume     Prix
+0             eolien   5201.976464        0
+1            solaire      0.000000        0
+2            fil_eau   2940.565853        0
+3       cogeneration   3615.333335        0
+4          nucleaire  51486.726886        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1080.998155       50
+6               ccgt   2434.342703   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+50,2021-01-03,2,49.93665453715557,65518.30837351035,"              techno        Volume     Prix
+0             eolien   5787.540188        0
+1            solaire      0.000000        0
+2            fil_eau   2860.531781        0
+3       cogeneration   3616.355626        0
+4          nucleaire  50972.000225        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac    281.880553       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+51,2021-01-03,3,44.16362206866835,63335.35608675482,"              techno        Volume     Prix
+0             eolien   6389.064159        0
+1            solaire      0.000000        0
+2            fil_eau   2767.193892        0
+3       cogeneration   3610.221878        0
+4          nucleaire  50720.411877        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    848.464281  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+52,2021-01-03,4,44.14415596822556,63139.92330691641,"              techno        Volume     Prix
+0             eolien   6963.633046        0
+1            solaire      0.000000        0
+2            fil_eau   2707.009959        0
+3       cogeneration   3593.609644        0
+4          nucleaire  50611.189391        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    264.481268  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+53,2021-01-03,5,44.166870502430804,64383.68300904055,"              techno        Volume     Prix
+0             eolien   7319.723887        0
+1            solaire      0.000000        0
+2            fil_eau   2768.249750        0
+3       cogeneration   3571.630380        0
+4          nucleaire  50778.161698        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    945.917294  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",5999.999999999993
+54,2021-01-03,6,44.208014406996114,66091.33002961281,"              techno        Volume     Prix
+0             eolien   7649.923662        0
+1            solaire      0.000000        0
+2            fil_eau   2825.266108        0
+3       cogeneration   3585.431313        0
+4          nucleaire  50850.474516        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2180.234431  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+55,2021-01-03,7,49.9412497319463,68153.19896364237,"              techno        Volume     Prix
+0             eolien   7954.941713        0
+1            solaire      0.000000        0
+2            fil_eau   2981.110819        0
+3       cogeneration   3556.551583        0
+4          nucleaire  51163.578978        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac    497.015872       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+56,2021-01-03,8,55.97572480109953,70088.93940524914,"              techno        Volume     Prix
+0             eolien   7970.901960        0
+1            solaire    133.279864        0
+2            fil_eau   3255.422851        0
+3       cogeneration   3555.273719        0
+4          nucleaire  51583.646150        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1425.671715       50
+6               ccgt    164.743148   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+57,2021-01-03,9,55.98571568592702,72262.33247994684,"              techno        Volume     Prix
+0             eolien   7982.606141        0
+1            solaire    572.483010        0
+2            fil_eau   3459.203536        0
+3       cogeneration   3523.582687        0
+4          nucleaire  51923.365746        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2036.895122       50
+6               ccgt    764.196238   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+58,2021-01-03,10,55.979939766274896,72986.973860625,"              techno        Volume     Prix
+0             eolien   8053.895243        0
+1            solaire   1046.771065        0
+2            fil_eau   3521.076843        0
+3       cogeneration   3527.160707        0
+4          nucleaire  51873.148511        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2547.280434       50
+6               ccgt    417.641058   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+59,2021-01-03,11,55.98351773035759,74002.37460804722,"              techno        Volume     Prix
+0             eolien   8062.052703        0
+1            solaire   1381.789149        0
+2            fil_eau   3560.565950        0
+3       cogeneration   3537.639193        0
+4          nucleaire  52167.672595        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2660.336115       50
+6               ccgt    632.318903   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+60,2021-01-03,12,55.99637180178015,74618.41271840713,"              techno        Volume     Prix
+0             eolien   8051.767211        0
+1            solaire   1466.078501        0
+2            fil_eau   3612.514187        0
+3       cogeneration   3524.093833        0
+4          nucleaire  51760.159732        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2800.236067       50
+6               ccgt   1403.563189   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+61,2021-01-03,13,55.977659919678665,72048.84341066724,"              techno        Volume     Prix
+0             eolien   7929.405318        0
+1            solaire   1318.037304        0
+2            fil_eau   3538.604094        0
+3       cogeneration   3522.560396        0
+4          nucleaire  51316.490459        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2142.895578       50
+6               ccgt    280.850263   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+62,2021-01-03,14,49.971256926524916,69622.13121644995,"              techno        Volume     Prix
+0             eolien   7693.903008        0
+1            solaire    961.198118        0
+2            fil_eau   3446.110891        0
+3       cogeneration   3513.870919        0
+4          nucleaire  50725.935773        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1281.112506       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+63,2021-01-03,15,49.94432719314673,68578.58390019291,"              techno        Volume     Prix
+0             eolien   7443.504469        0
+1            solaire    414.814857        0
+2            fil_eau   3387.405160        0
+3       cogeneration   3513.870919        0
+4          nucleaire  51032.260908        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac    786.727588       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+64,2021-01-03,16,55.97618654384298,70267.37803031871,"              techno        Volume     Prix
+0             eolien   7329.654708        0
+1            solaire     45.353661        0
+2            fil_eau   3668.263514        0
+3       cogeneration   3519.493522        0
+4          nucleaire  51266.022137        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2246.142775       50
+6               ccgt    192.447713   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+65,2021-01-03,17,56.01215821309105,74142.04531755124,"              techno        Volume     Prix
+0             eolien   7420.450779        0
+1            solaire      0.000000        0
+2            fil_eau   4081.526522        0
+3       cogeneration   3534.316746        0
+4          nucleaire  51631.603609        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   3123.399794       50
+6               ccgt   2350.747867   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+66,2021-01-03,18,56.02942041368342,74803.48968518358,"              techno        Volume     Prix
+0             eolien   7328.945363        0
+1            solaire      0.000000        0
+2            fil_eau   4196.192752        0
+3       cogeneration   3530.227581        0
+4          nucleaire  51302.429633        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   3059.214453       50
+6               ccgt   3386.479903   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+67,2021-01-03,19,56.0201612741092,72453.2511874253,"              techno        Volume     Prix
+0             eolien   6987.396080        0
+1            solaire      0.000000        0
+2            fil_eau   4041.826243        0
+3       cogeneration   3539.939348        0
+4          nucleaire  50924.544938        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2128.613049       50
+6               ccgt   2830.931529   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+68,2021-01-03,20,55.999814428508955,69475.02556423462,"              techno        Volume     Prix
+0             eolien   6628.822534        0
+1            solaire      0.000000        0
+2            fil_eau   3808.903863        0
+3       cogeneration   3552.717990        0
+4          nucleaire  50360.856473        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1513.603911       50
+6               ccgt   1610.120792   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+69,2021-01-03,21,55.99454959640223,68464.93549017819,"              techno        Volume     Prix
+0             eolien   6517.455478        0
+1            solaire      0.000000        0
+2            fil_eau   3675.865695        0
+3       cogeneration   3552.973563        0
+4          nucleaire  50086.670369        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1337.739519       50
+6               ccgt   1294.230866   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+70,2021-01-03,22,56.03412659163011,72082.03511919951,"              techno        Volume     Prix
+0             eolien   6865.743532        0
+1            solaire      0.000000        0
+2            fil_eau   3692.125916        0
+3       cogeneration   3564.985486        0
+4          nucleaire  50122.826778        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   2167.502827       50
+6               ccgt   3668.850580   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+71,2021-01-03,23,56.02978726333271,71596.1085062861,"              techno        Volume     Prix
+0             eolien   7329.300036        0
+1            solaire      0.000000        0
+2            fil_eau   3692.548259        0
+3       cogeneration   3570.608089        0
+4          nucleaire  49759.253996        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   3000.000000  44.2353
+5                lac   1835.907245       50
+6               ccgt   3408.490882   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+72,2021-01-04,0,44.2274870283858,66446.80058613107,"              techno        Volume     Prix
+0             eolien   5072.314856        0
+1            solaire      0.000000        0
+2            fil_eau   2728.436893        0
+3       cogeneration   3589.382104        0
+4          nucleaire  53292.253661        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2764.413073  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+73,2021-01-04,1,44.20601208226288,65165.24968783322,"              techno        Volume     Prix
+0             eolien   4866.298529        0
+1            solaire      0.000000        0
+2            fil_eau   2623.545432        0
+3       cogeneration   3586.050307        0
+4          nucleaire  52969.190732        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3   2120.164689  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.0
+74,2021-01-04,2,44.140573824508905,62009.17115451491,"              techno        Volume     Prix
+0             eolien   4649.164286        0
+1            solaire      0.000000        0
+2            fil_eau   2486.073665        0
+3       cogeneration   3581.459831        0
+4          nucleaire  52135.456416        8
+10  interconnexion_1   3000.000000  24.9697
+9            charbon   2000.000000  28.0412
+12  interconnexion_3    157.016956  44.2353
+5                lac      0.000000       50
+6               ccgt      0.000000   56.073
+11  interconnexion_2      0.000000  61.5819
+7            tac gaz      0.000000  89.0422
+13  interconnexion_4      0.000000  191.513
+8          tac fioul      0.000000  206.435",6000.000000000007
