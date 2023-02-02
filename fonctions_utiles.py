@@ -8,7 +8,7 @@ def generation_moyenne(Data):
     Data = Data.drop(columns=['moyenne', 'ecart_type'])
     return Data
 
-def generation_moyenne_autocorr(Data,corr=0.5):
+def generation_moyenne_autocorr(Data,corr=0.8):
 
     Data['value_d'] = None
 
@@ -42,12 +42,12 @@ def ajout_demande(prix, volume, equilibre):
         {'Sens': 'D', 'Volume_Start': volume, 'Volume_End': volume, 'Prix_Start': 0, 'Prix_End': prix},
         ignore_index=True)
 
-    if prix < 3000:
+    if prix < 4000:
         equilibre = equilibre.append(
             {'Sens': 'D', 'Volume_Start': volume, 'Volume_End': 0, 'Prix_Start': prix, 'Prix_End': prix + 0.1},
             ignore_index=True)
         equilibre = equilibre.append(
-            {'Sens': 'D', 'Volume_Start': 0, 'Volume_End': 0, 'Prix_Start': prix + 0.1, 'Prix_End': prix + 3000},
+            {'Sens': 'D', 'Volume_Start': 0, 'Volume_End': 0, 'Prix_Start': prix + 0.1, 'Prix_End': prix + 4000},
             ignore_index=True)
 
     return equilibre
@@ -58,7 +58,7 @@ def ajout_offre(prix, volume, equilibre, production, techno):
     # On ne produit pas de volume négatif (ce cas peut arriver en raison de la distribution symétrique)
     volume = max(volume, 0)
     equilibre = equilibre.append(
-        {'Sens': 'O', 'Volume_Start': volume, 'Volume_End': volume, 'Prix_Start': prix, 'Prix_End': 3000},
+        {'Sens': 'O', 'Volume_Start': volume, 'Volume_End': volume, 'Prix_Start': prix, 'Prix_End': 4000},
         ignore_index=True)
 
     if prix > 0:
@@ -135,9 +135,9 @@ def calcul_equilibre(equilibre):
                           equilibre.Volume_Start.D.values[0]
 
 
-    # S'il n'y a pas de croisement, alors il y a défaillance et donc 3000 €/MWh
+    # S'il n'y a pas de croisement, alors il y a défaillance et donc 4000 €/MWh
     else:
-        clearing_prix = 3000
+        clearing_prix = 4000
         clearing_volume = Offre_Max
 
     return [clearing_prix, clearing_volume]

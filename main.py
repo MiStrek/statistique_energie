@@ -10,7 +10,7 @@ import time
 # Pandas et numpy pour la gestion des données
 import numpy as np
 import pandas as pd
-
+import plotly.express as px
 import warnings
 from fonctions_utiles import generation_moyenne, ajout_demande, ajout_offre, calcul_equilibre, \
     generation_moyenne_autocorr
@@ -39,6 +39,8 @@ prix_commo = pd.read_csv('prix_commodites.csv')
 date_range = pd.date_range(start="2021-11-22", end="2021-11-28")
 
 result = pd.DataFrame(columns=('Date', 'Heure', 'Prix', 'Consommation', 'Production'))
+
+result_production = pd.DataFrame(columns=('Date', 'techno', 'Volume', 'Prix'))
 
 # On génère les prix des commodités sur l'années
 
@@ -96,9 +98,9 @@ for date in date_range:
 
         production = pd.DataFrame(columns=('techno', 'Volume', 'Prix'))
 
-        # On suppose que la consommation est demandée au prix plafond (3000 €/MWh)
+        # On suppose que la consommation est demandée au prix plafond (4000 €/MWh)
 
-        equilibre = ajout_demande(3000,
+        equilibre = ajout_demande(4000,
                                   prod_conso_fatale_h[prod_conso_fatale_h['techno'] == 'consommation'].value_h.values[
                                       0], equilibre)
 
@@ -190,10 +192,21 @@ for date in date_range:
         production['Volume'][production['Volume'] < 0] = 0
 
         production = production.drop(columns=['VolumeCumul'])
+        production['Date'] = date+pd.DateOffset(hours=h)
 
-        result = result.append({'Date': date, 'Heure': h, 'Prix': prix, 'Consommation':
+        result = result.append({'Date': date+pd.DateOffset(hours=h), 'Heure': h, 'Prix': prix, 'Consommation':
             prod_conso_fatale_h[prod_conso_fatale_h['techno'] == 'consommation'].value_h.values[0],
                                 'Production': production, 'Export': volume - prod_conso_fatale_h[
                 prod_conso_fatale_h['techno'] == 'consommation'].value_h.values[0]}, ignore_index=True)
+        result_production = result_production.append(production)
+
 
 print(time.thread_time())
+fig = px.line(result, x="Date", y="Consommation", title='Consommation')
+fig.show()
+fig_1 = px.line(result_production[result_production['techno'] == 'eolien'], x="Date", y="Volume", title='Eolien')
+fig_1.show()
+fig_2 = px.line(result_production[result_production['techno'] == 'solaire'], x="Date", y="Volume", title='Solaire')
+fig_2.show()
+fig_3 = px.line(result, x="Date", y="Prix", title='Prix')
+fig_3.show()
