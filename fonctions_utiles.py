@@ -2,14 +2,15 @@ import numpy as np
 
 import pandas as pd
 
+
 # Fonction pour ajouter une variable aléatoire gaussienne à un data frame
 def generation_moyenne(Data):
     Data['value_d'] = np.random.normal(Data.moyenne, Data.ecart_type, len(Data))
     Data = Data.drop(columns=['moyenne', 'ecart_type'])
     return Data
 
-def generation_moyenne_autocorr(Data,corr=0.8):
 
+def generation_moyenne_autocorr(Data, corr=0.8):
     Data['value_d'] = None
 
     for techno in set(Data.techno):
@@ -26,13 +27,14 @@ def generation_moyenne_autocorr(Data,corr=0.8):
             cov_matrix[i - 1, i] = std_vec[i - 1] * std_vec[i] * corr
             cov_matrix[i, i - 1] = cov_matrix[i - 1, i]
 
-#On divise par 100 pour que la fonction multivariate_norma ne remonte pas de problème sur la contrainte de symétrie  définie-positive de la matrice
+        # On divise par 10000 pour que la fonction multivariate_norma ne remonte pas de problème sur la contrainte de symétrie  définie-positive de la matrice
 
-        res = np.random.multivariate_normal(mean_vec/100, cov_matrix/10000, 1).T
+        res = np.random.multivariate_normal(mean_vec / 10000, cov_matrix / 100000000, 1).T
 
-        Data.loc[Data.techno == techno, 'value_d'] = res*100
+        Data.loc[Data.techno == techno, 'value_d'] = res * 10000
 
     return Data
+
 
 # Ajout de la demande dans le dataFrame equilibre
 # Il faut éviter les fonctions palier pour s'assurer de limiter des problèmes de discontinuités lors du calcul de l'équilibre

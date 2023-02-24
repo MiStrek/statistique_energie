@@ -29,14 +29,13 @@ prod_conso_fatale_H = pd.read_csv('prod_conso_fatale_H.csv')
 # Production pilotable disponible (Centrale à gaz, charbon, fioul, interconnexion ...)
 prod_pilotable = pd.read_csv('prod_pilotable.csv', sep=";")
 
-
 # Prix des commodités
 
 prix_commo = pd.read_csv('prix_commodites.csv')
 
 # On simule l'année 2021 pour exemple
 
-date_range = pd.date_range(start="2021-11-22", end="2021-11-28")
+date_range = pd.date_range(start="2022-10-01", end="2022-12-30")
 
 result = pd.DataFrame(columns=('Date', 'Heure', 'Prix', 'Consommation', 'Production'))
 
@@ -46,8 +45,7 @@ result_production = pd.DataFrame(columns=('Date', 'techno', 'Volume', 'Prix'))
 
 prix_commo = generation_moyenne(prix_commo)
 
-
-#On génère les variables fatales aléatoires autocorrélées
+# On génère les variables fatales aléatoires autocorrélées
 
 prod_conso_fatale_day = generation_moyenne_autocorr(prod_conso_fatale_day)
 
@@ -66,7 +64,6 @@ for date in date_range:
     # On selectionne les grandeurs fatales de la journée en question
     prod_conso_fatale = prod_conso_fatale_day[
         (prod_conso_fatale_day['week'] == week) & (prod_conso_fatale_day['day'] == day)]
-
 
     # on calcule le prix des commodités
 
@@ -192,21 +189,24 @@ for date in date_range:
         production['Volume'][production['Volume'] < 0] = 0
 
         production = production.drop(columns=['VolumeCumul'])
-        production['Date'] = date+pd.DateOffset(hours=h)
+        production['Date'] = date + pd.DateOffset(hours=h)
 
-        result = result.append({'Date': date+pd.DateOffset(hours=h), 'Heure': h, 'Prix': prix, 'Consommation':
+        result = result.append({'Date': date + pd.DateOffset(hours=h), 'Heure': h, 'Prix': prix, 'Consommation':
             prod_conso_fatale_h[prod_conso_fatale_h['techno'] == 'consommation'].value_h.values[0],
                                 'Production': production, 'Export': volume - prod_conso_fatale_h[
                 prod_conso_fatale_h['techno'] == 'consommation'].value_h.values[0]}, ignore_index=True)
         result_production = result_production.append(production)
 
-
 print(time.thread_time())
 fig = px.line(result, x="Date", y="Consommation", title='Consommation')
 fig.show()
+time.sleep(1)
 fig_1 = px.line(result_production[result_production['techno'] == 'eolien'], x="Date", y="Volume", title='Eolien')
 fig_1.show()
+time.sleep(1)
 fig_2 = px.line(result_production[result_production['techno'] == 'solaire'], x="Date", y="Volume", title='Solaire')
 fig_2.show()
+time.sleep(1)
 fig_3 = px.line(result, x="Date", y="Prix", title='Prix')
 fig_3.show()
+time.sleep(1)
