@@ -35,7 +35,7 @@ prix_commo = pd.read_csv('prix_commodites.csv')
 
 # On simule l'année 2021 pour exemple
 
-date_range = pd.date_range(start="2022-10-01", end="2022-12-30")
+date_range = pd.date_range(start="2022-10-01", end="2022-10-30")
 
 result = pd.DataFrame(columns=('Date', 'Heure', 'Prix', 'Consommation', 'Production'))
 
@@ -115,8 +115,6 @@ for date in date_range:
 
         [equilibre, production] = ajout_offre(8, prod_conso_fatale_h[
             prod_conso_fatale_h['techno'] == 'nucleaire'].value_h.values[0], equilibre, production, 'nucleaire')
-        [equilibre, production] = ajout_offre(50, prod_conso_fatale_h[
-            prod_conso_fatale_h['techno'] == 'lac'].value_h.values[0], equilibre, production, 'lac')
 
         # On ajoute la production pilotable
         # On calcule le prix par technologie fossile
@@ -136,6 +134,10 @@ for date in date_range:
         [equilibre, production] = ajout_offre(prod_pilotable[prod_pilotable['techno'] == 'charbon'].cout.values[0],
                                               prod_pilotable[prod_pilotable['techno'] == 'charbon'].puissance.values[0],
                                               equilibre, production, 'charbon')
+        [equilibre, production] = ajout_offre(prod_pilotable[prod_pilotable['techno'] == 'ccgt'].cout.values[0],
+                                              prod_conso_fatale_h[
+                                                  prod_conso_fatale_h['techno'] == 'lac'].value_h.values[0], equilibre,
+                                              production, 'lac')
 
         # On ajoute les interconnexions à la demande et à l'offre
 
@@ -198,6 +200,7 @@ for date in date_range:
         result_production = result_production.append(production)
 
 print(time.thread_time())
+time.sleep(1)
 fig = px.line(result, x="Date", y="Consommation", title='Consommation')
 fig.show()
 time.sleep(1)
@@ -207,6 +210,9 @@ time.sleep(1)
 fig_2 = px.line(result_production[result_production['techno'] == 'solaire'], x="Date", y="Volume", title='Solaire')
 fig_2.show()
 time.sleep(1)
-fig_3 = px.line(result, x="Date", y="Prix", title='Prix')
+fig_3 = px.line(result_production[result_production['techno'] == 'nucleaire'], x="Date", y="Volume", title='Nucleaire')
 fig_3.show()
+time.sleep(1)
+fig_4 = px.line(result, x="Date", y="Prix", title='Prix')
+fig_4.show()
 time.sleep(1)
